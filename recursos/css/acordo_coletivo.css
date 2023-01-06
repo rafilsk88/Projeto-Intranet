@@ -53,7 +53,8 @@ body.acordo_coletivo{
 
 #menu-h ul li a {
     color: #FFF;
-    padding: 20px;
+    padding: 5px 10px;
+	margin-right: 10px;
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
