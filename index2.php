@@ -12,11 +12,7 @@
 		<header class="cabecalho">
 			<h1>Intranet</h1>
 			<h2>Fique por dentro de tudo que acontece em nossa associação</h2>
-		</header>
-		<nav class="navegacao">
-			<a href=<?="/{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Sem Formatação</a>
-			<a href="index.php" class="vermelho">Voltar</a>
-		</nav>
+		</header>		
 		<main class="principal">
 			<div class="conteudo">
 				<nav class="modulos">
