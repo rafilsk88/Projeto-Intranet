@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Destop: 992px até 1200px
+Grandes telas acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    selection#login{
+        width: 90vw;
+    }
+
+    selection#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    selection#login{
+        float: right;
+        width: 70%;
+    }
+
+}
+
