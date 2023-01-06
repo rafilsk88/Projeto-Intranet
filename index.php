@@ -26,10 +26,10 @@
 						<div class="campo">
 							<span class="material-icons">vpn_key</span>
 							<input type="password" name="Senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="6" maxlength="8">
-							<label for="ilogin">Senha</label>
+							<label for="isenha">Senha</label>
 						</div>
 						<input type="submit" value="Entrar">
-						<a href="esqueci.html">
+						<a href="esqueci.html" class="botao">
 							Esqueci a senha <i class="material-icons">mail</i>
 						</a>
 					</form>   
