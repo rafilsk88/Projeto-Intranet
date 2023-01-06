@@ -49,13 +49,12 @@ body {
 	padding: 20px;
 }
 
-.conteudo {
-	position: relative;
-	height: 100%;
-	overflow-y: scroll;
-    background-color: #fff;
-	padding: 20px;
-	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+.navegacao {
+	grid-area: navegacao;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #555;
 }
 
 .navegacao > a {
@@ -66,6 +65,17 @@ body {
 	background-color: #2196f3;
 	padding: 5px 10px;
 	margin-right: 10px;
+}
+
+.navegacao > a.verde { background-color: #4CAF50;}
+.navegacao > a.vermelho { background-color: #F44336;}
+.conteudo {
+	position: relative;
+	height: 100%;
+	overflow-y: scroll;
+    background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
 .rodape {
