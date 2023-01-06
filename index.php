@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="recursos\css\style.css">
         <link rel="stylesheet" href="recursos\css\media-query.css">
 		<title>Elosaude</title>
@@ -16,7 +17,20 @@
                 <div id="formulario">
                     <h1>Login</h1>
                     <p>Seja bem-vindo(a) novamnete. Faça login para acessar a Intranet</p>
-                    <form action="login.php" method="post"></form>   
+                    <form action="login.php" method="post">
+						<div class="campo">
+							<span class="material-icons">person;</span>
+							<input type="email" name="login" id="ilogin" placeholder="seu e-mail">
+							<label for="ilogin"></label>
+
+						</div>
+						<div class="campo">
+							<span class="material-icons">vpn_key;</span>
+							<input type="password" name="Senha" id="isenha" placeholder="sua senha">
+							<label for="ilogin"></label>
+
+						</div>
+					</form>   
                 </div>
             </section>
 		</main>	
