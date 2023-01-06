@@ -26,7 +26,7 @@
 						</div>
 						<div class="campo">
 							<span class="material-icons">vpn_key</span>
-							<input type="password" name="Senha" id="isenha" placeholder="sua senha" autocomplete="on">
+							<input type="password" name="Senha" id="isenha" placeholder="sua senha" autocomplete="current-password">
 							<label for="ilogin">Senha</label>
 
 						</div>
