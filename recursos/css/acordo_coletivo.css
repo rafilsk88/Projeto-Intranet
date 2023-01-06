@@ -29,7 +29,7 @@ body.acordo_coletivo{
 	margin-right: 10px;
 }
 
-.navegacao > a.verde { background-color: #4CAF50;}
+.navegacao > a.verde { background-color: #4CAF50; list-style: none;}
 .navegacao > a.vermelho { background-color: #F44336;}
 
 .conteudo {
@@ -43,3 +43,4 @@ body.acordo_coletivo{
 	border-bottom: 1px solid #999;
 	margin-bottom: 20 px;
 }
+
