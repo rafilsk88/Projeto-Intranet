@@ -22,14 +22,16 @@
 							<span class="material-icons">person</span>
 							<input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email">
 							<label for="ilogin">Login</label>
-
 						</div>
 						<div class="campo">
 							<span class="material-icons">vpn_key</span>
 							<input type="password" name="Senha" id="isenha" placeholder="sua senha" autocomplete="current-password">
 							<label for="ilogin">Senha</label>
-
 						</div>
+						<input type="submit" value="Entrar">
+						<a href="esqueci.html">
+							Esqueci a senha <i class="material-icons">mail</i>
+						</a>
 					</form>   
                 </div>
             </section>
