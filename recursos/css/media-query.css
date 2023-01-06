@@ -7,9 +7,16 @@ Celular: de 600px até 768px
 Tablet: 768px até 992px
 Destop: 992px até 1200px
 Grandes telas acima de 1200px
+
+Paleta de cores 
+#20A490
+#7D7776
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #20A490, #7D7776 );
+    }
     section#login{
         width: 80vw;
     }
@@ -30,6 +37,9 @@ Grandes telas acima de 1200px
 }
 
 @media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #20A490, #7D7776 );
+    }
     section#login{
         width: 950px;
     }
