@@ -10,17 +10,17 @@ Grandes telas acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    selection#login{
+    section#login{
         width: 90vw;
     }
 
-    selection#login > div#imagem{
+    section#login > div#imagem{
         float: left;
         width: 30%;
         height: 100%;
     }
 
-    selection#login > div#formulario{
+    section#login > div#formulario{
         float: right;
         width: 70%;
     }
