@@ -16,7 +16,7 @@
 		</header>
 		<nav class="navegacao">
 			<a href=<?="/{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Sem Formatação</a>
-			<a href="index.php" class="vermelho">Voltar</a>
+			<a href="..\index.php" class="vermelho">Voltar</a>
 		</nav>
 		<main class="principal">
 			<div class="conteudo">
