@@ -12,6 +12,8 @@ section#login {
 	height: 500px;
 	border-radius: 20px;
 	box-shadow: 0px 0px rgba(0, 0, 0, 0.408);
+
+    transition: width 1s, height 1s;
 }
 
 section#login > div#imagem {
