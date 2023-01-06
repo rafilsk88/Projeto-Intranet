@@ -17,7 +17,6 @@ section#login {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
 	overflow: hidden;
 
 	background-color: #7D7776;
@@ -26,6 +25,7 @@ section#login {
 	border-radius: 20px;
 	box-shadow: 0px 0px rgba(0, 0, 0, 0.408);
 
+	transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -80,6 +80,11 @@ div.campo > input {
 	border: 0px;
 	border-radius: 8px;
 	padding: 4px;
+}
+
+div.campo > imput:focus-within {
+	background-color: white;
+	
 }
 
 form > input[type=submit]{
