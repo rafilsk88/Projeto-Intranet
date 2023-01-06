@@ -14,17 +14,19 @@
 			<h1>Intranet</h1>
 			<h2>Fique por dentro de tudo que acontece em nossa associação</h2>
 		</header>
-		<nav class="navegacao">
-			<a href=<?="/{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Institucional</a>
-			<a href="elosaude/elosaude.php" class="verde">Elosaude</a>
-			<a href="gni/gni.php" class="verde">GNI</a>
-			<a href="gestão_e_desenvolvimento_de_pessoas/gestão_e_desenvolvimento_de_pessoas.php" class="verde">GDP</a>
-			<a href="governança_risco_e_compliance/governança_risco_e_compliance.php" class="verde">GRC</a>
-			<a href="superintendente/superintendente.php" class="verde">Superintendente</a>
-			<a href="lgpd/lgpd.php" class="verde">LGPD</a>
-			<a href="workshops/workshops.php" class="verde">Workshops</a>
-			<a href="treinamentos/treinamentos.php" class="verde">Treinamentos</a>
-			<a href="comunicados/comunicados.php" class="verde">Comunicados</a>
+		<nav id="menu-h">
+			<ul>
+				<li><a href=<?="/{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Institucional</a></li>
+				<li><a href="elosaude/elosaude.php" class="verde">Elosaude</a></li>
+				<li><a href="gni/gni.php" class="verde">GNI</a></li>
+				<li><a href="gestão_e_desenvolvimento_de_pessoas/gestão_e_desenvolvimento_de_pessoas.php" class="verde">GDP</a></li>
+				<li><a href="governança_risco_e_compliance/governança_risco_e_compliance.php" class="verde">GRC</a></li>
+				<li><a href="superintendente/superintendente.php" class="verde">Superintendente</a></li>
+				<li><a href="lgpd/lgpd.php" class="verde">LGPD</a></li>
+				<li><a href="workshops/workshops.php" class="verde">Workshops</a></li>
+				<li><a href="treinamentos/treinamentos.php" class="verde">Treinamentos</a></li>
+				<li><a href="comunicados/comunicados.php" class="verde">Comunicados</a></li>
+			</ul>
 		</nav>
 		<main class="principal">
 			<div class="conteudo">
