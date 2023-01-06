@@ -9,10 +9,7 @@
 		<title>Elosaude</title>
 	</head>
 	<body>
-		<header class="cabecalho">
-			<h1>Intranet</h1>
-			<h2>Fique por dentro de tudo que acontece em nossa associação</h2>
-		</header>		
+				
 		<main class="principal">
 			<section id="login">
                 <div id="imagem">
