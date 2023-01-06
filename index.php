@@ -19,15 +19,15 @@
                     <p>Seja bem-vindo(a) novamnete. Faça login para acessar a Intranet</p>
                     <form action="login.php" method="post">
 						<div class="campo">
-							<span class="material-icons">person;</span>
+							<span class="material-icons">person</span>
 							<input type="email" name="login" id="ilogin" placeholder="seu e-mail">
-							<label for="ilogin"></label>
+							<label for="ilogin">Login</label>
 
 						</div>
 						<div class="campo">
-							<span class="material-icons">vpn_key;</span>
+							<span class="material-icons">vpn_key</span>
 							<input type="password" name="Senha" id="isenha" placeholder="sua senha">
-							<label for="ilogin"></label>
+							<label for="ilogin">Senha</label>
 
 						</div>
 					</form>   
