@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
-
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
 
 body, html{
 	background-color: #5f2c82;
