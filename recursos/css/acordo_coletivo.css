@@ -35,7 +35,6 @@ body.acordo_coletivo{
 #menu-h{
     background-color: rgb(37, 37, 39);
 	grid-area: navegacao;
-	grid-area: navegacao;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -63,10 +62,6 @@ body.acordo_coletivo{
     background-color: rgb(24, 139, 233);
 }
 
-#menu-h ul li:last-child a {
-    float: right;
-    background-color: rgb(24, 139, 233);
-}
 
 .conteudo {
 	font-size:2rem;
