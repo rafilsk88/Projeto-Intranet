@@ -18,12 +18,12 @@
 			<a href=<?="/{$_GET['dir']}/{$_GET['file']}.php"?> class="verde">Institucional</a>
 			<a href="elosaude/elosaude.php" class="verde">Elosaude</a>
 			<a href="gni/gni.php" class="verde">GNI</a>
-			<a href="gestão_e_desenvolvimento_de_pessoas/gestão_e_desenvolvimento_de_pessoas.php" class="verde">Gestão e Desenvolvimento de Pessoas</a>
-			<a href="governança_risco_e_compliance/governança_risco_e_compliance.php" class="verde">Governança Risco e Compliance</a>
+			<a href="gestão_e_desenvolvimento_de_pessoas/gestão_e_desenvolvimento_de_pessoas.php" class="verde">GDP</a>
+			<a href="governança_risco_e_compliance/governança_risco_e_compliance.php" class="verde">GRC</a>
 			<a href="superintendente/superintendente.php" class="verde">Superintendente</a>
 			<a href="lgpd/lgpd.php" class="verde">LGPD</a>
 			<a href="workshops/workshops.php" class="verde">Workshops</a>
-			<a href="treinamento/treinamento.php" class="verde">Treinamento</a>
+			<a href="treinamentos/treinamentos.php" class="verde">Treinamentos</a>
 			<a href="comunicados/comunicados.php" class="verde">Comunicados</a>
 		</nav>
 		<main class="principal">
