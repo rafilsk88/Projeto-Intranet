@@ -21,7 +21,7 @@ section#login > div#imagem {
 	display: block;
 	background:  #5f2c82 url(../../img/logo.png);
 	background-size: cover;
-	height: 200px;
+	height: 100px;
 }
 
 section#login > div#formulario {
