@@ -22,9 +22,7 @@
                 </div>
             </section>
 		</main>
-		<footer class="rodape">
-			ELOSAÚDE – Associação de Assistência à Saúde  © <?= date(Y) ?>
-		</footer>
+		
 	
 	</body>
 </html>
