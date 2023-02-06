@@ -1,7 +1,7 @@
 <?php
 
 $host = 192.168.40.25;
-$usuario = 'rafal';
+$usuario = 'rafael';
 $senha = 'LkzR#4yu';
 $database = 'Intranet';
 
