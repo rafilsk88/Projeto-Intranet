@@ -1,6 +1,6 @@
 <?php
 
-$host = 'localhost';
+$host = 192.168.40.25;
 $usuario = 'rafal';
 $senha = 'LkzR#4yu';
 $database = 'Intranet';
