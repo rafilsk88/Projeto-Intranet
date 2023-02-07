@@ -17,6 +17,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
 		$quantidade = $sql_query->num_rows;
 
 		if($quantidade == 1){
+
 			$usuario = $sql_query->fetch_assoc();
 
 			if(!isset($_SESSION)){
@@ -48,7 +49,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
 	<body>				
 		<h1>Seja bem-vindo(a)!</h1>
 		<h2> Faça login para acessar a Intranet</h2>
-		<form action=" " method="post" autocomplete="on">
+		<form action="" method="POST">
 			<p>
 				<label>E-mail</label>
 				<input type="text" name="email">
