@@ -46,7 +46,8 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
 		<title>Elosaude</title>
 	</head>
 	<body>				
-		<h1>Seja bem-vindo(a) novamnete. Faça login para acessar a Intranet</h1>
+		<h1>Seja bem-vindo(a)!</h1>
+		<h2> Faça login para acessar a Intranet</h2>
 		<form action=" " method="post" autocomplete="on">
 			<p>
 				<label>E-mail</label>
