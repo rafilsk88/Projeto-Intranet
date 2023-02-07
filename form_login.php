@@ -10,6 +10,6 @@
 		<input type="password" name="senha">
 	</p>
 	<p>
-		<button type="submit">Entra</button>
+		<input type="submit" value = "Entrar" >
 	</p>
 </form>
