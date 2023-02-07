@@ -1,42 +1,6 @@
 <?php 
-include('conexao.php');
 
-if(isset($_POST['email']) || isset($_POST['senha'])){
-
-	if(strlen($_POST['email']) == 0) {
-		echo "Preencha seu e-mail";
-	}else if(strlen($_POST['senha']) == 0){
-		echo "Preencha sua senha";
-	} else {
-		$email = $mysqli->real_escape_string($_POST['email']);
-		$senha = $mysqli->real_escape_string($_POST['senha']);
-
-		$sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
-		$sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
-
-		$quantidade = $sql_query->num_rows;
-
-		if($quantidade == 1){
-
-			$usuario = $sql_query->fetch_assoc();
-
-			if(!isset($_SESSION)){
-				session_start();
-			}
-
-			$_SESSION['idusuario'] = $usuario['idusuario'];
-			$_SESSION['nome'] = $usuario['nome'];
-
-			header('Location: http://192.168.40.25/Projeto-Intranet/home.php');
-			
-
-
-		}else {
-			echo "Falha ao logar! E-mail ou senha incorretos";
-		}
-	}
-}
-
+include_once('dados_login.php');
 
 ?>
 <!DOCTYPE html>
@@ -47,21 +11,13 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Login</title>
 	</head>
-	<body>				
-		<h1>Seja bem-vindo(a)!</h1>
-		<h2> Faça login para acessar a Intranet</h2>
-		<form action="" method="POST">
-			<p>
-				<label>E-mail</label>
-				<input type="text" name="email">
-			</p>
-			<p>
-				<label>Senha</label>
-				<input type="password" name="senha">
-			</p>
-			<p>
-				<button type="submit">Entra</button>
-			</p>
-		</form>   
+	<body>
+		<?php
+			if(!$logged){
+				include_once "form_login.php";
+			}else {
+				include_once "conteudo_restrito.php";
+			}
+		?>   
 	</body>
 </html>
