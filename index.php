@@ -12,6 +12,12 @@ include_once('dados_login.php');
 		<title>Login</title>
 	</head>
 	<body>
+		<p>
+			<a href="elosaude/elosaude.php">elosaude</a>
+			<a href="gni/gni.php">GNI</a>
+			<a href="lgpd/lgpd.php">LGPD</a>
+			<a href="?logout">Sair</a>
+		</p>
 		<?php
 			if(!$_SESSION['logged']){
 				include_once "form_login.php";
