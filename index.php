@@ -51,7 +51,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
 		<form action=" " method="post" autocomplete="on">
 			<p>
 				<label>E-mail</label>
-				<input type="text" name="c">
+				<input type="text" name="email">
 			</p>
 			<p>
 				<label>Senha</label>
