@@ -6,7 +6,7 @@ if(!$logged) die('Conteudo restrito, apenas para colaboradores da ELOSAUDE');
 
 <p>
     <?php
-    echo "Olá {$_SESSION['nome']}";
+    echo "Olá {$_SESSION['email']}";
     ?>
 
 </p>
