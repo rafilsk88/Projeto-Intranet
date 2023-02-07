@@ -13,7 +13,7 @@ include_once('dados_login.php');
 	</head>
 	<body>
 		<?php
-			if(!$logged){
+			if(!$_SESSION['logged']){
 				include_once "form_login.php";
 			}else {
 				include_once "conteudo_restrito.php";
