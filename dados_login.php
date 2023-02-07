@@ -2,8 +2,8 @@
 session_start();
 $_SESSION['logged'] = $_SESSION['logged'] ?? False;
 
-$usuario_bd = rafael;
-$senha_bd = 1234;
+$usuario_bd = 'rafael';
+$senha_bd = '1234';
         
 $p_usuario = $_POST['email'];
 $p_senha = $_POST['senha'];
