@@ -27,7 +27,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
 			$_SESSION['idusuario'] = $usuario['idusuario'];
 			$_SESSION['nome'] = $usuario['nome'];
 
-			header("Location: http://localhost/home.php");
+			header("Location: http://192.168.40.25/Projeto-Intranet/home.php");
 
 
 		}else {
