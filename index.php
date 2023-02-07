@@ -16,7 +16,7 @@ include_once('dados_login.php');
 			<a href="elosaude/elosaude.php">elosaude</a>
 			<a href="gni/gni.php">GNI</a>
 			<a href="lgpd/lgpd.php">LGPD</a>
-			<a href="?logout">Sair</a>
+			<a href="?logout=1">Sair</a>
 		</p>
 		<?php
 			if(!$_SESSION['logged']){
