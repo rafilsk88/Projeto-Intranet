@@ -1,15 +1,15 @@
 <?php 
 include('conexao.php');
 
-if(isset($_POST['login']) || isset($_POST['Senha'])){
+if(isset($_POST['email']) || isset($_POST['senha'])){
 
-	if(strlen($_POST['login']) == 0) {
+	if(strlen($_POST['email']) == 0) {
 		echo "Preencha seu e-mail";
-	}else if(strlen($_POST['Senha']) == 0){
+	}else if(strlen($_POST['senha']) == 0){
 		echo "Preencha sua senha";
 	} else {
-		$email = $mysqli->real_escape_string($_POST['login']);
-		$senha = $mysqli->real_escape_string($_POST['Senha']);
+		$email = $mysqli->real_escape_string($_POST['email']);
+		$senha = $mysqli->real_escape_string($_POST['senha']);
 
 		$sql_code = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";
 		$sql_query = $mysqli->query($sql_code) or die("Falha na execução do código SQL: " . $mysqli->error);
@@ -38,42 +38,27 @@ if(isset($_POST['login']) || isset($_POST['Senha'])){
 
 ?>
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">		
+		<meta charset="UTF-8">	
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link rel="stylesheet" href="recursos\css\style.css">
-        <link rel="stylesheet" href="recursos\css\media-query.css">
 		<title>Elosaude</title>
 	</head>
 	<body>				
-		<main>
-			<section id="login">
-                <div id="imagem">
-
-                </div>
-                <div id="formulario">
-                    <h1>Login</h1>
-                    <p>Seja bem-vindo(a) novamnete. Faça login para acessar a Intranet</p>
-                    <form action=" " method="post" autocomplete="on">
-						<div class="campo">
-							<span class="material-icons">person</span>
-							<input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" require maxlength="30">
-							<label for="ilogin">Login</label>
-						</div>
-						<div class="campo">
-							<span class="material-icons">vpn_key</span>
-							<input type="password" name="Senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="6" maxlength="8">
-							<label for="isenha">Senha</label>
-						</div>
-						<input type="submit" value="Entrar">
-						<a href="esqueci.html" class="botao">
-							Esqueci a senha <i class="material-icons">mail</i>
-						</a>
-					</form>   
-                </div>
-            </section>
-		</main>	
+		<h1>Seja bem-vindo(a) novamnete. Faça login para acessar a Intranet</h1>
+		<form action=" " method="post" autocomplete="on">
+			<p>
+				<label>E-mail</label>
+				<input type="text" name="c">
+			</p>
+			<p>
+				<label>Senha</label>
+				<input type="password" name="senha">
+			</p>
+			<p>
+				<button type="submit">Entrar<button>
+			</p>
+		</form>   
 	</body>
 </html>
