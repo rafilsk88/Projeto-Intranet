@@ -56,7 +56,7 @@ if(isset($_POST['login']) || isset($_POST['Senha'])){
                 <div id="formulario">
                     <h1>Login</h1>
                     <p>Seja bem-vindo(a) novamnete. Faça login para acessar a Intranet</p>
-                    <form action="login.php" method="post" autocomplete="on">
+                    <form action="home.php" method="post" autocomplete="on">
 						<div class="campo">
 							<span class="material-icons">person</span>
 							<input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplete="email" require maxlength="30">
