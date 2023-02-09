@@ -15,9 +15,20 @@
         <div class="conteudo">
             <nav class="modulos">
                 <div class="modulo verde">
-                    <h3>Módulo 01</h3>
+                    <h3>Elosaude</h3>
                     <ul>
-                        <li><a href="exercicio.php?dir=teste&file=teste">Exercício A</a></li>
+                        <li>
+                        <a href="exercicio.php?dir=elosaude&file=acordo_coletivo">Acordo Coletivo Vigente</a>
+                        </li>
+                        <li>
+                        <a href="exercicio.php?dir=elosaude&file=elosaude">Elosaude</a>
+                        </li>
+                        <li>
+                        <a href="exercicio.php?dir=elosaude&file=estatuto_social">Estatuto Social</a>
+                        </li>
+                        <li>
+                        <a href="exercicio.php?dir=elosaude&file=organograma">Organograma</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
