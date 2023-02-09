@@ -13,15 +13,15 @@ include_once 'includes/session.php';
 		<div class="container">
             <h1>HOME</h1>
             <?php include_once("./html/menu.php");?>
-        </div>
-		
-        <p>Aqui vai conteudo da HOME</p>
         
-        <?php
-        if($logado){
-            echo "<p> Olá {$_SESSION['usuario']}!</p>"
-        }
-        ?>
-
+		
+            <p>Aqui vai conteudo da HOME</p>
+            
+            <?php
+            if($logado){
+                echo "<p> Olá {$_SESSION['usuario']}!</p>"
+            }
+            ?>
+        </div>
 	</body>
 </html>
