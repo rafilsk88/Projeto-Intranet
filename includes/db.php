@@ -1,7 +1,7 @@
 <?php
 
 #Variavel para teste 
-$usuario_db = 'rafal';
+$usuario_db = 'rafael';
 $senha_db = '1234';
 
 
