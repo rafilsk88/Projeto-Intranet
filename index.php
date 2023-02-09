@@ -18,7 +18,7 @@ include_once 'includes/session.php';
 		
             <p>Aqui vai conteudo da HOME</p>
             <?php if($logado){
-                echo "<p> Olá {$_SESSION['usuario']}</p>"
+                echo "<p> Olá {$_SESSION['usuario']}</p>";
             }
             ?>
             
