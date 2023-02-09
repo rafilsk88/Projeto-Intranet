@@ -6,9 +6,9 @@ $p_usuario = $_POST['usuario'] ?? NULL;
 $p_senha = $_POST['senha'] ?? NULL;
 
 if($p_usuario == $usuario_db && $p_senha == $senha_db){
-    $SESSION['usuario'] = $usuario_db;
-    $SESSION['senha'] = $senha_db;
-    $SESSION['session_id'] = session_id();
+    $_SESSION['usuario'] = $usuario_db;
+    $_SESSION['senha'] = $senha_db;
+    $_SESSION['session_id'] = session_id();
     header('Location: http://192.168.40.25/Projeto-Intranet/index.php')
     
 } else{
