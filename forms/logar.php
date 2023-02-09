@@ -9,10 +9,10 @@ if($p_usuario == $usuario_db && $p_senha == $senha_db){
     $_SESSION['usuario'] = $usuario_db;
     $_SESSION['senha'] = $senha_db;
     $_SESSION['session_id'] = session_id();
-    header('Location: http://192.168.40.25/Projeto-Intranet/index.php')
+    header('Location: http://192.168.40.25/Projeto-Intranet/index.php');
     
 } else{
     session_unset();
     session_destroy();
-    header('Location: http://192.168.40.25/Projeto-Intranet/paginas/login.php')
+    header('Location: http://192.168.40.25/Projeto-Intranet/paginas/login.php');
 }
