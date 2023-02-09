@@ -13,7 +13,7 @@ require_once '../includes/session.php';
 	<body>
 		<div class="container">
             <h1>Pagina 2</h1>
-            <?php include_once("./html/menu.php");?>
+            <?php include_once("../html/menu.php");?>
         </div>
 		
         <p>Aqui vai conteudo da Pagina 2</p>
