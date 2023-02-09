@@ -14,5 +14,5 @@ if($p_usuario == $usuario_db && $p_senha == $senha_db){
 } else{
     session_unset();
     session_destroy();
-    header('Location: http://192.168.40.25/Projeto-Intranet/paginas/login.php');
+    header('Location: http://192.168.40.25/Projeto-Intranet/paginas/paginas/login.php');
 }

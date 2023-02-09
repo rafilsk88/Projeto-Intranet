@@ -10,7 +10,7 @@
 	<body>
 		<div class="container">
             <h1>Login</h1>
-            <?php include_once("./html/menu.php");?>
+            <?php include_once("../html/menu.php");?>
 
             <form action="../forms/logar.php" method="post">
                 <p>
