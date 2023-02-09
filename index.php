@@ -16,5 +16,12 @@ include_once 'includes/session.php';
         </div>
 		
         <p>Aqui vai conteudo da HOME</p>
+        
+        <?php
+        if($logado){
+            echo "<p> Olá {$_SESSION['usuario']}!</p>"
+        }
+        ?>
+
 	</body>
 </html>
