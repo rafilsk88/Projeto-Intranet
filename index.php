@@ -22,7 +22,7 @@
         <h1>ELOSAÚDE</h1>
         <h2>Intranet</h2>
     </header>
-    <nav class="navegacao">
+    
     <div class="container">
 			<ul id="gn-menu" class="gn-menu-main">
 				<li class="gn-trigger">
@@ -65,7 +65,7 @@
 		<script>
 			new gnMenu( document.getElementById( 'gn-menu' ) );
 		</script>
-    </nav>
+    
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
