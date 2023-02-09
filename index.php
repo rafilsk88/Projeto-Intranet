@@ -1,43 +1,29 @@
+<?php 
+
+include_once('dados_login.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="recursos/css/estilo.css">
-    <title>Elosaude</title>
-</head>
-<body>
-    <header class="cabecalho">
-        <h1>ELOSAÚDE</h1>
-        <h2>Intranet</h2>
-    </header>
-    <main class="principal">
-        <div class="conteudo">
-            <nav class="modulos">
-                <div class="modulo verde">
-                    <h3>Elosaude</h3>
-                    <ul>
-                        <li>
-                        <a href="exercicio.php?dir=elosaude&file=acordo_coletivo">Acordo Coletivo Vigente</a>
-                        </li>
-                        <li>
-                        <a href="exercicio.php?dir=elosaude&file=elosaude">Elosaude</a>
-                        </li>
-                        <li>
-                        <a href="exercicio.php?dir=elosaude&file=estatuto_social">Estatuto Social</a>
-                        </li>
-                        <li>
-                        <a href="exercicio.php?dir=elosaude&file=organograma">Organograma</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </main>
-    <footer class="rodape">
-        ELOSAÚDE © Copyright <?= date('Y'); ?>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8">	
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Login</title>
+	</head>
+	<body>
+		<p>
+			<a href="elosaude/elosaude.php">elosaude</a>
+			<a href="gni/gni.php">GNI</a>
+			<a href="lgpd/lgpd.php">LGPD</a>
+			<a href="?logout=1">Sair</a>
+		</p>
+		<?php
+			if(!$_SESSION['logged']){
+				include_once "form_login.php";
+			}else {
+				include_once "conteudo_restrito.php";
+			}
+		?>   
+	</body>
 </html>
