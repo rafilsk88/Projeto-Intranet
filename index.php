@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="recursos/css/estilo.css">
+    <link rel="stylesheet" href="recursos/css/exercicio.css">
     <script src="js/modernizr.custom.js"></script>
     <title>Elosaude</title>
 </head>
