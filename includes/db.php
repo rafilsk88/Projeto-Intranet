@@ -1,5 +1,10 @@
 <?php
 
+#Variavel para teste 
+$usuario_db = 'rafal';
+$senha_db = '1234';
+
+
 $host = 'localhost';
 $usuario = 'rafael';
 $senha = 'LkzR#4yu';
